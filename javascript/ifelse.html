@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-  
-</head>
+<head></head>
 <body>
   <script>
-   
-   var a= 30;
-   var b=10;
-   var c=20;
-   if(a>b){
-    if(b>c){
+    var a = 30;
+    var b = 10;
+    var c = 20;
+
+    if (a > b && a > c) {
       document.write(a);
+    } else if (b > a && b > c) {
+      document.write(b);
+    } else {
+      document.write(c);
     }
-   }
-   else if(b>a){
-    if(a>c){
-      document.write(b)
-    }
-   }
-   else document.write(c);
-    
   </script>
 </body>
 </html>
