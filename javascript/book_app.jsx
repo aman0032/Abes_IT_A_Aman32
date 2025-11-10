@@ -28,9 +28,3 @@ function Book(){
     </div>
   )
 }
-// #book{
-//   border: 5px solid red;
-//   height: 300px;
-//   width: 300px;
-//   background-color:coral;
-// }class
