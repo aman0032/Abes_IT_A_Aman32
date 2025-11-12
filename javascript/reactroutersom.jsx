@@ -10,6 +10,7 @@ function AboutUs() {
 
 export default function Link1() {
   return (
+    
     <div>
         <nav>
             <Link to ='/'>Home</Link>
@@ -21,4 +22,6 @@ export default function Link1() {
         </Routes>
     </div>
   )
+  
+
 }
